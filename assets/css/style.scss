@@ -15,7 +15,7 @@ body {
   margin: 20px !important;
 }
 
-markdown-body:first-child {
+h1:first-child {
   display: flex;
   justify-content: flex-end;
   a {
