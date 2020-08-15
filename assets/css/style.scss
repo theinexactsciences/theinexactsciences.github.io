@@ -14,14 +14,15 @@ a {
 
 body {
   margin: 20px !important;
+  width: 80%;
 }
 
 h1:first-child {
-  color: black;
   display: flex;
   justify-content: center;
   a {
     font-size: 16px;
+    color: black;
   }
 }
 
