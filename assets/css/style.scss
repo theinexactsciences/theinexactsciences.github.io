@@ -17,13 +17,14 @@ body {
 }
 
 h1:first-child {
+  color: black;
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
   a {
     font-size: 16px;
   }
 }
 
-h2 {
+h1, h2, h3 {
   border-bottom: none !important;
 }
