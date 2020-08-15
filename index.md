@@ -1,3 +1,4 @@
+---
 title: the inexact science group
 ---
 
@@ -10,3 +11,7 @@ title: the inexact science group
 # Papers
 
 [Reason & Rutten 2018: Predictive Hermeneutics](./docs/PredictiveHermeneutics.pdf)
+
+# Entries
+
+[Surrogation](./docs/surrogation.md)
