@@ -1,3 +1,6 @@
+title: the inexact science group
+---
+
 # Letters
 
 ## 1: The Meaning of Meaning
