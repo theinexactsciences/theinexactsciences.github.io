@@ -4,9 +4,9 @@
 @import "{{ site.theme }}";
 
 p, a, i, em, b, s, div, h1, h2, h3, h4 {
-  font-color: black;
+  font-color: black !important;
 }
 
 body {
-  margin: 20px;
+  margin: 20px !important;
 }
