@@ -3,6 +3,7 @@
 ### 1: The Meaning of Meaning
 
 [1.1 Suspended Reason](./letters/1-1.md)
+
 _Starting from scratch: meaning, intent, and entailment._
 
 ## Papers
@@ -12,4 +13,5 @@ _Starting from scratch: meaning, intent, and entailment._
 ## Entries
 
 [Surrogation](./docs/surrogation.html)
+
 _The substitution of a representation—be it a metonym, symbol, proxy, metric, or signal—for some represented whole._
