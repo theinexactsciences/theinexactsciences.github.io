@@ -13,14 +13,17 @@ a {
   text-decoration: underline;
 }
 
+h1 a {
+  text-decoration: none !important;
+}
+
 body {
   margin: 50px !important;
 }
 
 h1:first-child {
   a {
-    font-size: 24px;
-    color: black;
+    font-size: 36px;
   }
 }
 
