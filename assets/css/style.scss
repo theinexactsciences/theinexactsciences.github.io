@@ -17,14 +17,16 @@ em {
   margin-left: 15px;
 }
 
-.entries {
+.content {
   display: flex;
 }
 
 .col-1, .col-2 {
   width: 100% !important;
-  margin-left: 15px;
-  margin-right: 15px;
+}
+
+.col-1 {
+  margin-right: 25px;
 }
 
 h1 a {
