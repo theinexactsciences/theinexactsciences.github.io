@@ -13,12 +13,18 @@ a {
   text-decoration: underline;
 }
 
+em {
+  margin-left: 15px;
+}
+
 .entries {
   display: flex;
 }
 
 .col-1, .col-2 {
   width: 100% !important;
+  margin-left: 15px;
+  margin-right: 15px;
 }
 
 h1 a {
@@ -37,5 +43,5 @@ h1:first-child {
 
 h1, h2, h3 {
   border-bottom: none !important;
-  margin-bottom: 12px;
+  margin-bottom: 15px;
 }
