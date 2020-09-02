@@ -3,13 +3,14 @@
 
 @import "{{ site.theme }}";
 
-p, i, em, b, s, div, h1, h2, h3, h4 {
+* {
   color: black !important;
   font-family: serif;
 }
 
 a {
   font-family: serif;
+  text-decoration: underline;
 }
 
 body {
