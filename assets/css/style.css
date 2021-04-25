@@ -1,3 +1,10 @@
+:root {
+  --col-min-width: 280px;
+  --col-width: 30%;
+  --col-max-width: 330px;
+  --col-margin: 30px;
+}
+
 #home, #home * {
   background: black;
   color: white;
@@ -39,13 +46,13 @@ a {
 }
 
 .col-1, .col-2, .col-3 {
-  min-width: 280px;
-  width: 30%;
-  max-width: 330px;
+  min-width: var(--col-min-width);
+  width: var(--col-width);
+  max-width: var(--col-max-width);
 }
 
 .col-1, .col-2 {
-  margin-right: 30px;
+  margin-right: var(--col-margin);
 }
 
 h1 a {
@@ -70,10 +77,10 @@ h1, h2, h3 {
   background: linear-gradient(to left, #e66465, #9198e5) !important;
   display: flex;
   justify-content: space-between;
-  padding: 0 20px;
-  width: calc(90% + 60px);
-  min-width: 900px;
-  max-width: 1050px;
+  padding: 0 50px;
+  width: calc((var(--col-width) * 3) + (2 * var(--col-margin)) - 50px);
+  min-width: calc((var(--col-min-width) * 3) + (2 * var(--col-margin)) - 50px);
+  max-width: calc((var(--col-max-width) * 3) + (2 * var(--col-margin)) - 50px);;
   position: relative;
   left: -50px;
   font-style: italic;
