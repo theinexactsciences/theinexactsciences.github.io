@@ -3,15 +3,24 @@
 
 @import "{{ site.theme }}";
 
+#home { background: black; }
+
 #home > * {
   background: black;
   color: white;
+}
+
+* {
   font-family: Helvetica, Arial, sans-serif;
+  background: white;
+  color: black;
 }
 
 a {
   font-family: inherit;
   text-decoration: underline;
+  color: white;
+  text-transform: uppercase;
 }
 
 .content {
