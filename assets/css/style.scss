@@ -3,13 +3,14 @@
 
 @import "{{ site.theme }}";
 
-* {
-  color: black !important;
-  font-family: serif;
+#home > * {
+  background: black;
+  color: white;
+  font-family: Helvetica, Arial, sans-serif;
 }
 
 a {
-  font-family: serif;
+  font-family: inherit;
   text-decoration: underline;
 }
 
@@ -18,7 +19,8 @@ a {
 }
 
 .col-1, .col-2 {
-  width: max-content !important;
+  min-width: 320px;
+  max-width: 30%;
 }
 
 .col-1 {
