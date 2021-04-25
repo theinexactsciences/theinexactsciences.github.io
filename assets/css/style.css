@@ -1,0 +1,88 @@
+#home, #home * {
+  background: black;
+  color: white;
+}
+
+#home {
+  width: 100%;
+  margin: 0 !important;
+  position: absolute;
+}
+
+#home-wrap {
+  margin: 50px !important;
+  background: inherit;
+}
+
+* {
+  font-family: Arial, sans-serif;
+  background: white;
+  color: black;
+}
+
+p {
+  font-size: 15px;
+  max-width: 300px;
+}
+
+a {
+  font-family: inherit;
+  text-decoration: underline;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: inherit;
+}
+
+.content {
+  display: flex;
+}
+
+.col-1, .col-2, .col-3 {
+  min-width: 280px;
+  width: 30%;
+  max-width: 330px;
+}
+
+.col-1, .col-2 {
+  margin-right: 30px;
+}
+
+h1 a {
+  text-decoration: none !important;
+}
+
+body {
+  margin: 50px !important;
+}
+
+h1:first-child a {
+  font-size: 36px;
+}
+
+h1, h2, h3 {
+  border-bottom: none !important;
+  margin: 15px 0px;
+}
+
+#gradient {
+  min-height: 25px;
+  background: linear-gradient(to left, #e66465, #9198e5) !important;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px;
+  width: calc(90% + 60px);
+  min-width: 900px;
+  max-width: 1050px;
+  position: relative;
+  left: -50px;
+  font-style: italic;
+  margin: 25px 0 20px;
+}
+
+#gradient > p {
+  background: none;
+}
+
+.subsection {
+  margin-bottom: 30px;
+}
