@@ -1,5 +1,5 @@
 :root {
-  --col-min-width: 280px;
+  --col-min-width: 250px;
   --col-width: 30%;
   --col-max-width: 330px;
   --col-margin: 30px;
@@ -93,4 +93,14 @@ h1, h2, h3 {
 
 .subsection {
   margin-bottom: 30px;
+}
+
+@media only screen and (max-width: 860px) {
+  #gradient { display: none; }
+  .content {
+    flex-direction: column;
+  }
+  .col-1 { order: 1; }
+  .col-3 { order: 2; }
+  .col-2 { order: 3; }
 }
