@@ -27,18 +27,21 @@
   color: black;
 }
 
-p {
-  font-size: 15px;
+#home > p {
   max-width: 300px;
 }
 
-a {
+p, li {
+  font-size: 15px;
+}
+
+#home a {
   font-family: inherit;
   text-decoration: underline;
   text-transform: uppercase;
   font-weight: bold;
   font-size: inherit;
-  color: ivory !important;
+  color: ivory;
 }
 
 .content {
@@ -57,6 +60,10 @@ a {
 
 h1 a {
   text-decoration: none !important;
+}
+
+.container-lg h1 a {
+  color: blue;
 }
 
 body {
